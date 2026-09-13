@@ -1,0 +1,1 @@
+SELECT * FROM exams WHERE subj_id = 12

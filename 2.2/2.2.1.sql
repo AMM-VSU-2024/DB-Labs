@@ -1,0 +1,1 @@
+SELECT subj_id, exam_date FROM exams WHERE exam_date BETWEEN '2001-01-10' AND '2001-01-20'
