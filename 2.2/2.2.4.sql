@@ -1,0 +1,1 @@
+SELECT * FROM student WHERE left(name, 1) IN ('И', 'С')
