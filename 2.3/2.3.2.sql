@@ -1,0 +1,1 @@
+SELECT substr(name, 1, 1) || '.' || surname || '; место жительства - ' || city || '; родился - ' || to_char(birthday, 'DD.MM.YY')  FROM student
