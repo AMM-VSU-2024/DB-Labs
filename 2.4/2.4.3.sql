@@ -1,0 +1,1 @@
+SELECT stud_id, min(mark) FROM exams GROUP BY stud_id

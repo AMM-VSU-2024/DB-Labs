@@ -1,0 +1,1 @@
+SELECT count(distinct subj_id) FROM exams
