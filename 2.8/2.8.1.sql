@@ -1,0 +1,1 @@
+SELECT surname FROM student WHERE stipend = (SELECT max(stipend) FROM student) ORDER BY surname

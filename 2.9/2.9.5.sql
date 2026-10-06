@@ -1,0 +1,1 @@
+SELECT * FROM student first WHERE stipend > (SELECT avg(stipend) FROM student second WHERE second.kurs = first.kurs) ORDER BY kurs;

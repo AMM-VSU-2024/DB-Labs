@@ -1,0 +1,1 @@
+SELECT * FROM subject WHERE hour = (SELECT max(hour) FROM subject)

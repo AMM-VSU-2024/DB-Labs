@@ -1,0 +1,1 @@
+SELECT * FROM lecturer WHERE city = (SELECT city FROM university WHERE university.univ_id = lecturer.univ_id)

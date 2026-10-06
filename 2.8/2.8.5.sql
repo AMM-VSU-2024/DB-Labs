@@ -1,0 +1,1 @@
+SELECT name, surname  FROM student WHERE city != (SELECT city FROM university WHERE university.univ_id = student.univ_id)

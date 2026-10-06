@@ -1,0 +1,1 @@
+SELECT exam_date, sum(mark) AS ss FROM exams GROUP BY exam_date ORDER BY ss DESC

@@ -1,0 +1,1 @@
+SELECT * FROM subject first WHERE hour = (SELECT max(hour) FROM subject second WHERE first.semestr = second.semestr) ORDER BY semestr

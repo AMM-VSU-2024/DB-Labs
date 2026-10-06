@@ -1,0 +1,1 @@
+SELECT * FROM student WHERE city = 'ВОРОНЕЖ' ORDER BY univ_id, kurs
