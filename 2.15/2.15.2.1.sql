@@ -1,0 +1,3 @@
+SELECT S.SURNAME, E.SUBJ_ID
+FROM STUDENT S
+         LEFT OUTER JOIN exams E ON S.stud_id = E.stud_id

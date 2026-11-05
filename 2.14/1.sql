@@ -1,0 +1,3 @@
+SELECT * FROM UNIVERSITY
+WHERE RATING >= ANY (SELECT RATING
+FROM UNIVERSITY WHERE UNIV_NAME = 'ВОРОНЕЖСКИЙ_ГОСУДАРСТВЕННЫЙ_УНИВЕРСИТЕТ')

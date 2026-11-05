@@ -1,0 +1,1 @@
+SELECT surname, name FROM student WHERE ARRAY[3,4,5] <@ ARRAY (SELECT mark FROM exams WHERE exams.stud_id = student.stud_id)

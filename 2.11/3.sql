@@ -1,0 +1,1 @@
+SELECT * FROM student st WHERE exists (SELECT * FROM university un WHERE st.univ_id != un.univ_id and st.city = un.city)

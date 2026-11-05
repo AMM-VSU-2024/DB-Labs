@@ -1,0 +1,1 @@
+SELECT * FROM subject WHERE subj_id IN (SELECT subj_lect.subj_id FROM subj_lect WHERE lecturer_id = (SELECT lecturer.lecturer_id FROM lecturer WHERE surname = 'ШАШКИН'))

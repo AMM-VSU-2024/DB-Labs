@@ -1,0 +1,1 @@
+SELECT DISTINCT subj_name FROM subject sub WHERE exists(SELECT count(*) ct FROM exams ex WHERE ex.subj_id = sub.subj_id GROUP BY ex.subj_id HAVING count(*) > 1)

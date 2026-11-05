@@ -1,0 +1,1 @@
+SELECT count(*) FROM student WHERE stud_id NOT IN (SELECT stud_id FROM exams);

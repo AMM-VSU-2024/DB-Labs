@@ -1,0 +1,1 @@
+SELECT * FROM student WHERE univ_id in (SELECT univ_id FROM university WHERE rating > 300)

@@ -1,0 +1,1 @@
+SELECT DISTINCT city FROM student s WHERE exists(SELECT * FROM university u WHERE s.city = u.city)

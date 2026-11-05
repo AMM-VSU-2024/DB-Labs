@@ -1,0 +1,5 @@
+SELECT A.SURNAME, B.SURNAME
+FROM STUDENT A
+         JOIN STUDENT B
+              ON A.CITY = B.CITY
+WHERE A.stud_id < B.stud_id

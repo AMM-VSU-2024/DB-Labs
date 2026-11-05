@@ -1,0 +1,1 @@
+SELECT * FROM student st WHERE EXISTS (SELECT * FROM university un WHERE rating > 300 and st.univ_id = un.univ_id )
